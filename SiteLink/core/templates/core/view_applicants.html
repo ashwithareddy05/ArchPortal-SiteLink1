@@ -1,0 +1,27 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+<h2>👤 Applicants for "{{ internship.title }}"</h2>
+
+{% if applicants %}
+    <ul>
+        {% for applicant in applicants %}
+            <li>
+                <strong>{{ applicant.first_name }} {{ applicant.last_name }}</strong><br>
+                Email: {{ applicant.email }}<br>
+                Phone: {{ applicant.phone_number }}<br>
+                College: {{ applicant.college_name }}<br>
+                Year: {{ applicant.year_of_passing }}<br>
+                CGPA: {{ applicant.cgpa }}<br>
+                Achievements: {{ applicant.achievements }}<br>
+                <a href="{{ applicant.resume.url }}" target="_blank">📄 View Resume</a>
+            </li>
+            <hr>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No one has applied yet.</p>
+{% endif %}
+
+<a href="{% url 'firm_dashboard' %}">🔙 Back to Dashboard</a>
+{% endblock %}
