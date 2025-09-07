@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-9ru-=1xbv21h)h-)uz=fdoyd5yvu&73-$e^@k@8#n4%g2ohfqj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["archportal-sitelink1.onrender.com"  ]
+#ALLOWED_HOSTS = ["archportal-sitelink1.onrender.com"  ]
+ALLOWED_HOSTS = ["archportal-sitelink1.onrender.com", "localhost", "127.0.0.1"]
 LOGIN_REDIRECT_URL = '/'
 
 
@@ -44,6 +45,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware", 
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -117,10 +119,18 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_URL = 'static/'
+# Static files (CSS, JS, Images)
+STATIC_URL = "/static/"
+
+# Local development static folder
 STATICFILES_DIRS = [
-    BASE_DIR / 'core/static',
+    BASE_DIR / "core/static",
 ]
+
+# Production static root (for collectstatic on Render)
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
@@ -129,4 +139,5 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
