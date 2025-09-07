@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-9ru-=1xbv21h)h-)uz=fdoyd5yvu&73-$e^@k@8#n4%g2ohfqj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["archportal-sitelink1.onrender.com"  ]
 LOGIN_REDIRECT_URL = '/'
 
 
@@ -129,3 +129,4 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
