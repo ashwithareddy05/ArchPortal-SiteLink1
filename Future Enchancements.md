@@ -18,6 +18,8 @@ Improves transparency and real-world usability
 
 
 
+
+
 📧 2. Email Notification System
 
 Description:
@@ -33,6 +35,8 @@ Better communication
 Professional user experience
 
 
+
+
 📊 3. Dashboard Analytics
 
 Description:
@@ -46,6 +50,8 @@ Quick insights at a glance
 Enhanced dashboard usability
 
 
+
+
 🌙 4. Dark Mode Support
 
 Description:
@@ -54,6 +60,8 @@ Provide a light/dark theme toggle with saved user preference.
 Benefits:
 Improved accessibility
 Modern UI experience
+
+
 
 
 🔍 5. Advanced Filters & Search
@@ -66,6 +74,8 @@ Projects: budget, location, approval status
 Benefits:
 Faster discovery
 Better matching of opportunities and requirements
+
+
 
 
 
@@ -83,6 +93,8 @@ Cleaner authorization logic
 
 
 
+
+
 📁 7. Resume Handling Improvements
 
 Description:
@@ -95,6 +107,8 @@ Better UX for firms
 Prevents invalid uploads
 
 
+
+
 💬 8. In-App Messaging System
 
 Description:
@@ -105,6 +119,8 @@ Firm ↔ Student (limited, application-related)
 Benefits:
 Keeps communication inside the platform
 Reduces dependency on external email
+
+
 
 
 
@@ -122,6 +138,8 @@ Improves platform credibility
 
 
 
+
+
 ☁️ 10. Deployment & Production Readiness
 
 Description:
@@ -132,6 +150,8 @@ Environment-based settings for development & production
 Benefits:
 Real-world deployment experience
 Scalable and secure application
+
+
 
 
 
@@ -148,6 +168,8 @@ Industry-level development practices
 
 
 
+
+
 ⭐ 12. Additional Enhancements
 
 Saved internships (bookmark feature)
@@ -155,6 +177,7 @@ Application download as PDF
 Deadline countdown indicators
 Pagination for listings
 
-🎯 Vision
 
+
+🎯 Vision
 These enhancements aim to evolve SiteLink into a production-grade platform that mirrors real-world internship portals and project management systems, while maintaining simplicity and usability.
