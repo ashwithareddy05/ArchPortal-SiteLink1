@@ -149,4 +149,6 @@ In development, static and media settings typically serve from local paths.
    python manage.py runserver
 
 
-   
+
+
+Author-Chidirala Ashwitha
