@@ -5,7 +5,6 @@ SiteLink is a Django-based platform that bridges the gap between **students**, *
 ---
 
 
-
 ## 🌟 Why SiteLink?
 
 Architecture and civil engineering students often struggle to find relevant, hands-on opportunities. Firms need a lighter way to source interns and respond to client project inquiries. Clients want a simple channel to describe their house projects and receive responses from firms.
