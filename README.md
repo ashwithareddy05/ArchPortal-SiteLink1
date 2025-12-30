@@ -130,9 +130,6 @@ Create a `.env` (or set environment variables) with at least:
 
 In development, static and media settings typically serve from local paths.
 
----
-
-
 
 ## 🚀 Quick Start (Dev)
 **Virtual environment & dependencies**
